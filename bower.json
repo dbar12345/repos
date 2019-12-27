@@ -1,0 +1,27 @@
+{
+  "name": "dev",
+  "description": "___        ______     ____ _                 _  ___           / \\ \\      / / ___|   / ___| | ___  _   _  __| |/ _ \\         / _ \\ \\ /\\ / /\\___ \\  | |   | |/ _ \\| | | |/ _` | (_) |       / ___ \\ V  V /  ___) | | |___| | (_) | |_| | (_| |\\__, |      /_/   \\_\\_/\\_/  |____/   \\____|_|\\___/ \\__,_|\\__,_|  /_/   -----------------------------------------------------------------",
+  "main": "app.js",
+  "license": "ISC",
+  "homepage": "https://github.com/dbar12345/repos",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  
+  "overrides" : {
+    "bootstrap" : {
+      "main" : [
+         "dist/js/bootstrap.bundle.js",
+         "dist/css/bootstrap.min.css",
+         "less/bootstrap.less"
+        ]
+    }
+  } 
+}
